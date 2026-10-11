@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "C++: Debug active file (WSL)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "C/C++: g++ build active file (WSL)"
+        }
+    ],
+    "version": "2.0.0"
+}
